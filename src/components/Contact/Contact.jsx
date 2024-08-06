@@ -1,5 +1,5 @@
 import css from './Contact.module.css'
-import icons from '../icons/icons.svg'
+import icons from './icons/icons.svg'
 const Contact = ({ contact, onDeleteContact }) => {
     
     const handleDeleteClick = () => {
