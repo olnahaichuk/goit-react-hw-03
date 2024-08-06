@@ -1,11 +1,10 @@
 .searchWrapper{
   font-size: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 input {
     font-size: 30px;
-    margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
 }
