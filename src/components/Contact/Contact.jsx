@@ -1,5 +1,6 @@
 import css from './Contact.module.css'
-import icons from './icons/icons.svg'
+import { FaUser } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 const Contact = ({ contact, onDeleteContact }) => {
     
     const handleDeleteClick = () => {
@@ -8,12 +9,8 @@ const Contact = ({ contact, onDeleteContact }) => {
   return (
       <div className={css.contactWrapper}>
           <div>
-              <svg className={css.icon} width={30} height={30}>
-      <use href={`${icons}#iconUser`}></use>
-    </svg>
-    <svg className={css.icon} width={30} height={30}> 
-      <use href={`${icons}#iconPhone`}></use>
-    </svg>
+        <FaUser className={ css.icon} />
+             <FaPhoneAlt className={ css.icon}  />
           </div>
           <div>
              
